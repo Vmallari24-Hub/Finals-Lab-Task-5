@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Final Lab Task 5: SQL Views & Stored Procedures</title>
+  <style>
+    body {
+      background-color: black;
+      color: #00ff00;
+      font-family: 'Courier New', Courier, monospace;
+      padding: 30px;
+      text-align: center;
+    }
+    .glitch {
+      font-size: 36px;
+      color: #00ffff;
+      animation: glitch 1s infinite;
+      margin-bottom: 40px;
+    }
+    @keyframes glitch {
+      0% { text-shadow: 2px 0 red, -2px 0 blue; }
+      20% { text-shadow: -2px -2px red, 2px 2px blue; }
+      40% { text-shadow: 2px 2px red, -2px -2px blue; }
+      60% { text-shadow: -2px 2px red, 2px -2px blue; }
+      80% { text-shadow: 2px -2px red, -2px 2px blue; }
+      100% { text-shadow: -2px 0 red, 2px 0 blue; }
+    }
+    h1, h2 {
+      color: #00ffff;
+    }
+    .section {
+      max-width: 700px;
+      margin: 0 auto 50px auto;
+      text-align: left;
+    }
+    p {
+      margin-bottom: 30px;
+      font-size: 18px;
+      color: #00ff00;
+      line-height: 1.4;
+    }
+    img {
+      display: block;
+      margin: 10px auto 30px auto;
+      max-width: 100%;
+      width: 400px;
+      border: 2px solid #00ff00;
+    }
+  </style>
+</head>
+<body>
+
+  <h1 class="glitch">Final Lab Task 5</h1>
+  <div class="section">
+    <p>1. CREATE A VIEW displaying vendors_code, vendor name, product description, p_indate for all products with p_indate from 2002 onwards</p>
+    <img src="Image/1.PNG" alt="Task 1 Query" />
+    <img src="Image/R1.PNG" alt="Task 1 Result" />
+  </div>
+
+  <div class="section">
+    <p>2. CREATE A VIEW displaying all products whose price range is between 100-150</p>
+    <img src="Image/2.PNG" alt="Task 2 Query" />
+    <img src="Image/R2.PNG" alt="Task 2 Result" />
+  </div>
+
+  <div class="section">
+    <p>3. CREATE A VIEW computing the TOTAL_PRICE (P_ONHAND x P_PRICE) of all products sold by vendors with v_code (21344, 23119, 24288)</p>
+    <img src="Image/3.PNG" alt="Task 3 Query" />
+    <img src="Image/R3.PNG" alt="Task 3 Result" />
+  </div>
+
+  <div class="section">
+    <p>4. CREATE A STORED PROCEDURE that updates the vendor name ‘Bryson,Inc.’ to ‘Bryson and Co’ based on a parameter</p>
+    <img src="Image/4.PNG" alt="Task 4 Query" />
+    <img src="Image/R4.PNG" alt="Task 4 Result" />
+  </div>
+
+  <div class="section">
+    <p>5. CREATE A FUNCTION that takes 2 parameters (v_code and v_state) and displays product description and price based on these parameters</p>
+    <img src="Image/5.PNG" alt="Task 5 Query" />
+    <img src="Image/R5.PNG" alt="Task 5 Result" />
+  </div>
+
+</body>
+</html>
