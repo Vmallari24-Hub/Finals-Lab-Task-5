@@ -11,21 +11,21 @@
 5. CREATE A Function that will take 2 parameters(v_code and v_state) and display All the product description and price based on the parameters passed to the function.
   
 # TASK 1
-<img src="Image/.PNG" alt="Alt Text" Width="400">
-<img src="Image/.PNG" alt="Alt Text" Width="400">
+<img src="Image/1.PNG" alt="Alt Text" Width="400">
+<img src="Image/R1.PNG" alt="Alt Text" Width="400">
 
 # TASK 2
-<img src="Image/.PNG" alt="Alt Text" Width="400">
-<img src="Image/.PNG" alt="Alt Text" Width="400">
+<img src="Image/2.PNG" alt="Alt Text" Width="400">
+<img src="Image/R2.PNG" alt="Alt Text" Width="400">
 
 # TASK 3
-<img src="Image/.PNG" alt="Alt Text" Width="400">
-<img src="Image/.PNG" alt="Alt Text" Width="400">
+<img src="Image/3.PNG" alt="Alt Text" Width="400">
+<img src="Image/R3.PNG" alt="Alt Text" Width="400">
 
 # TASK 4
-<img src="Image/.PNG" alt="Alt Text" Width="400">
-<img src="Image/.PNG" alt="Alt Text" Width="400">
+<img src="Image/4.PNG" alt="Alt Text" Width="400">
+<img src="Image/R4.PNG" alt="Alt Text" Width="400">
 
 # TASK 5
-<img src="Image/.PNG" alt="Alt Text" Width="400">
-<img src="Image/.PNG" alt="Alt Text" Width="400">
+<img src="Image/5.PNG" alt="Alt Text" Width="400">
+<img src="Image/R5.PNG" alt="Alt Text" Width="400">
